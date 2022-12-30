@@ -13,7 +13,7 @@ function App() {
             Mohsin's Estate
           </h1>
         </div>
-        <div className="flex gap-8">
+        <div className="md:flex hidden gap-8">
           <div className="flex items-center gap-2">
             <FontAwesomeIcon icon={faMessage} className="text-primary-1" />
             <h1 className="text-lg text-primary-1 font-normal font-sans">
@@ -63,7 +63,7 @@ function App() {
           </p>
         </div>
 
-        <div className="w-3/4 grid grid-cols-3">
+        <div className="w-3/4 grid md:grid-cols-3 grid-cols-1">
           <div className="col-span-1">
             <p className="">
               <span className="block text-primary-1">
