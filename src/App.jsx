@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faPhone, faDirections, faMessage } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
-
   return (
     <>
       <nav className="flex justify-between items-center py-6 px-16 shadow-md w-full fixed top-0 bg-white">
